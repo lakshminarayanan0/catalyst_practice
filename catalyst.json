@@ -1,0 +1,15 @@
+{
+  "functions": {
+    "targets": [
+      "deal",
+      "authpractice",
+      "project_rainfall_function",
+      "usermanagement"
+    ],
+    "ignore": [],
+    "source": "functions"
+  },
+  "client": {
+    "source": "client"
+  }
+}

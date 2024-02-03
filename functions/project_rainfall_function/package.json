@@ -1,0 +1,13 @@
+{
+	"name": "project_rainfall_function",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "lakshminarayanan.r@chakraa.io",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.18.2",
+		"express-fileupload": "^1.4.3",
+		"moment": "^2.30.1",
+		"zcatalyst-sdk-node": "latest"
+	}
+}

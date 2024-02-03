@@ -1,0 +1,9 @@
+{
+	"name": "deal",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "lakshminarayanan.r@chakraa.io",
+	"dependencies": {
+		"zcatalyst-sdk-node": "latest"
+	}
+}

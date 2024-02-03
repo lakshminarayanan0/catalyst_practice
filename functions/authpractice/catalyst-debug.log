@@ -1,0 +1,32 @@
+[debug] [2024-02-02T07:27:18.901Z] : 
+[debug] [2024-02-02T07:27:18.902Z] : ----------------------------------------------------------------------
+[debug] [2024-02-02T07:27:18.902Z] : Command:      /snap/node/7823/bin/node /usr/local/bin/catalyst deploy
+[debug] [2024-02-02T07:27:18.903Z] : CLI Version:  1.17.2
+[debug] [2024-02-02T07:27:18.903Z] : Platform:     linux
+[debug] [2024-02-02T07:27:18.903Z] : Node Version: v18.18.0
+[debug] [2024-02-02T07:27:18.904Z] : Time:         Fri Feb 02 2024 12:57:18 GMT+0530 (India Standard Time)
+[debug] [2024-02-02T07:27:18.904Z] : ----------------------------------------------------------------------
+[debug] [2024-02-02T07:27:18.904Z] : 
+[debug] [2024-02-02T07:27:19.285Z] : > authorizing via signed-in user option
+[debug] [2024-02-02T07:27:19.286Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-02-02T07:27:19.295Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/1721000000006015 
+
+[error] [2024-02-02T07:27:29.348Z] : ✖ API Error: getaddrinfo EAI_AGAIN api.catalyst.zoho.com
+[debug] [2024-02-02T07:27:29.349Z] : Error Stack: CatalystError: API Error: getaddrinfo EAI_AGAIN api.catalyst.zoho.com
+    at API.<anonymous> (/usr/local/lib/node_modules/zcatalyst-cli/lib/internal/api.js:211:32)
+    at Generator.next (<anonymous>)
+    at /usr/local/lib/node_modules/zcatalyst-cli/lib/internal/api.js:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/local/lib/node_modules/zcatalyst-cli/lib/internal/api.js:27:12)
+    at Request._callback (/usr/local/lib/node_modules/zcatalyst-cli/lib/internal/api.js:191:67)
+    at self.callback (/usr/local/lib/node_modules/zcatalyst-cli/node_modules/request/request.js:185:22)
+    at Request.emit (node:events:517:28)
+    at Request.onRequestError (/usr/local/lib/node_modules/zcatalyst-cli/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (node:events:517:28)
+[debug] [2024-02-02T07:27:29.349Z] : Original Error: Error: getaddrinfo EAI_AGAIN api.catalyst.zoho.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+[debug] [2024-02-02T07:27:29.350Z] : Error Status: 500
+[info] [2024-02-02T07:27:29.350Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[debug] [2024-02-02T07:27:29.351Z] : EXEC ENDED with event: Error (Unexpected), message: API Error: getaddrinfo EAI_AGAIN api.catalyst.zoho.com
+[debug] [2024-02-02T07:27:29.352Z] : TOTAL DURATION OF COMMAND EXEC : 10064
+[debug] [2024-02-02T07:27:29.353Z] : Unable to initialise the log API

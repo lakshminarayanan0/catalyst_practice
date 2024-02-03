@@ -1,0 +1,10 @@
+{
+	"name": "authpractice",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "lakshminarayanan.r@chakraa.io",
+	"dependencies": {
+		"express": "^4.18.2",
+		"zcatalyst-sdk-node": "latest"
+	}
+}
